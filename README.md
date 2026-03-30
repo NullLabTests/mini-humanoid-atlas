@@ -120,3 +120,20 @@ Contributions are welcome! Whether it's new data, bug fixes, UI improvements, or
 ## License
 
 [MIT](LICENSE)
+
+## 🔬 arXiv Alignment Update (March 2026)
+
+**Relevant papers directly supporting our 1ft mini-humanoid clothes-folding task + Unitree UnifoLM-WBT integration:**
+
+- **FoldNet (arXiv:2505.09109)**: Keypoint-driven synthetic garment dataset and closed-loop folding policy.  
+  → Great for improving vision-based folding on crumpled laundry.
+
+- **CLASP (arXiv:2507.19983)**: General-purpose clothes manipulation using **semantic keypoints** (e.g. "left sleeve", "right shoulder").  
+  → Excellent fit — bridges perception and action for diverse folding/hanging/placing tasks.
+
+**Changes in this commit:**
+- Added this research section
+- Created `research/cloth_folding_roadmap.md` with next-step recommendations
+
+Next: Implement semantic keypoint detection stub and integrate with existing multi-task folding script.
+
