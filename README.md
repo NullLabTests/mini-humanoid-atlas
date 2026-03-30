@@ -137,3 +137,11 @@ Contributions are welcome! Whether it's new data, bug fixes, UI improvements, or
 
 Next: Implement semantic keypoint detection stub and integrate with existing multi-task folding script.
 
+
+### 🆕 March 30 2026 Update — Semantic Keypoint Perception
+- Added `vision/semantic_keypoints.py`: CLASP-inspired detection of meaningful clothes parts.
+- Bridges perception → action for the 1 ft mini-android folding pipeline.
+- Prepares for closed-loop policies from FoldNet.
+
+This moves us from pure text roadmap to runnable code.
+
